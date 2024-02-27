@@ -1,0 +1,28 @@
+/* AppBar.css */
+
+/* Add the following styles to ensure equal height and width for navbar links */
+.navbar-nav {
+  height: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+  height: 100%;
+}
+
+/* Optional: Add styles for the active link */
+.nav-item:hover {
+     border-bottom: 3px solid #772C91;
+    border-top: 3px solid #772C91;
+    
+
+}
+.nav-item:hover h5{
+    color: #772C91;
+}
